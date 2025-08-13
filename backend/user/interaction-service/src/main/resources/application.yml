@@ -1,0 +1,12 @@
+server:
+  port: 8099
+
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/ott_db
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
